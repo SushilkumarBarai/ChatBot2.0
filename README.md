@@ -1,4 +1,4 @@
-# ChatBotNLTK
+# ANA the chat bot
 
 My second attempt to build chatbot by using NLTK & Keras.
 
