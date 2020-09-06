@@ -1,0 +1,78 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through all the Saudi Home Loan Product","I can guide you through all the Saudi Home Loan Product and Features"],
+         "context": [""]
+        },
+        {"tag": "Home_Loan",
+         "patterns": ["What is home loan?", "Regarding home loan", "Home Loan", "loan home","loans" ],
+         "responses": ["A sum of money borrowed from a financial institution or bank to purchase a house.","Home loans consist of an adjustable or fixed interest rate and payment terms.","A home-purchase loan amount is utilized to buy a residential property","Financial institutions usually provide up to 80-85% of the market value of the house as loan amount."],
+         "context": [""]
+        },
+        {"tag": "eligibility",
+         "patterns": ["eligibility", "What is eligibility ?", "eligibility information", "Loan eligibility", "home loan eligibility","What is eligibility ?" ],
+         "responses": ["For salaried professionals, about 40% of monthly gross income can be considered as monthly EMI against the loan,Net monthly income should be equal to or more than Rs. 25,000 to be eligible for a home loan,All Indian Residents are eligible to avail a home loan,Applicants with a good credit score or CIBIL score have a higher chance of getting home loan approval than the applicants with poor credit score"],
+         "context": [""]
+        },
+        {"tag": "types_Home_loan",
+         "patterns": ["Types of home Loan", "Loan types", "Different types of loan", "home loan types", "all types of home loan","type loan" ,"loans"],
+         "responses": ["Land-purchase loan, Home-purchase loan, Home-construction loan, Home-extension loans, Home-improvement loans, NRI-home loans, Home-conversion loans."],
+         "context": [""]
+        },
+    {"tag": "loan_types",
+         "patterns": ["Types of home Loan", "Loan types", "Different types of loan", "home loan types", "all types of home loan","type loan","loans" ],
+         "responses": ["Land-purchase loan, Home-purchase loan, Home-construction loan, Home-extension loans, Home-improvement loans, NRI-home loans, Home-conversion loans."],
+         "context": [""]
+        },
+        {"tag": "Home_extension_loan",
+         "patterns": ["home extension loan","what is home extension loan","what is loan home extension","extension loan for home","Loan for extension", "Looking for extension loan"],
+         "responses": ["Any person who wishes to add space to their existing Apartment/Floor/Row house can avail a Home Extension Loan from bank","Home Extension Loans, you now have the chance to make that dream of having a bigger house a reality, and at the same time, ensure that your family is comfortable."],
+         "context": [""]
+        },
+        {"tag": "Land_purchase_loan",
+         "patterns": ["land loan", "loan land", "What is land loan ?", "Loan for land","land purchase loan", "Looking for land loan"],
+         "responses": ["if you are looking to buy a plot, you may not be eligible for a home loan, but for a land loan.","Home loans are available only for the property already constructed, under construction or likely to undergo construction soon.","For funding the purchase of a vacant plot, you will have to go for a land loan instead."],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "Home_purchase_loan",
+         "patterns": ["home loan","loan home","What is home home loan ?","What are home loan","loan for home", "Looking for home loan"],
+         "responses": ["A mortgage is a loan from a bank or lender to help you finance the purchase of a home.","When you take out a mortgage, you make a promise to repay the money you've borrowed, plus an agreed-upon interest rate.","Financial institutions usually provide up to 80-85% of the market value of the house as loan amount.","Home loan is generally taken either to buy flat/house, construction of house or renovation. "],
+         "context": [""]
+        },
+        {"tag": "Home_construction_loan",
+         "patterns": ["construction loan", "loan construction", "what is construction loan ?", "Loan for construction ?", "Looking for construction loan" ],
+         "responses": ["Please provide hospital name or location"],
+         "context": ["search_hospital_by_params"]
+        },
+    {"tag": "Name",
+         "patterns": ["What is your name ?","Your name","Your name Please","May I have your name?"],
+         "responses": ["My name is Ana"],
+         "context": [""]
+        },
+    {"tag": "exit",
+         "patterns": ["exit"],
+         "responses": ["exit"],
+         "context": [""]
+        }
+   ]
+}
